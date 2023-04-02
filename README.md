@@ -1,6 +1,6 @@
 # This Repo (and it's work) is dedicated to our beautiful community [Books And More][def1]
 
-## Developer: [Somoy aka "Jond Deadman"][def2]
+## <b> Developer:</b> <i>[Somoy aka "Jond Deadman"][def2]</i>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 
@@ -9,6 +9,7 @@
 <a href="https://fb.com/xSomoy" target="blank"><img align="center" src="https://github.com/kmhmubin/kmhmubin/blob/master/assets/facebook.svg" alt="Somoy" height="30" width="30" /></a>
 <a href="https://instagram.com/xSomoy" target="blank"><img align="center" src="https://github.com/kmhmubin/kmhmubin/blob/master/assets/instagram.svg" alt="Somoy" height="30" width="30" /></a>
 </p>
+
 ---
 
 <!-- visitor counter -->
