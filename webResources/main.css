@@ -48,14 +48,15 @@ span {
 /* S-Variables  */
 :root {
     /* CSS HEX */
+    /* Dark Pastel Green  */
     --dark-pastel-green: #20bf55ff;
     --indigo-dye: #0b4f6cff;
     --process-cyan: #01baefff;
     --ghost-white: #fbfbffff;
     --gray: #757575ff;
-    --font1: 'Lato', sans-serif;
-    --font2: 'Montserrat', sans-serif;
-    --font3: 'Manowar', sans-serif;
+
+    /* Fonts  */
+    --font1: 'Manowar', sans-serif;
 }
 
 /* E-Variables  */
@@ -66,9 +67,7 @@ span {
     padding-top: 5px;
 }
 
-body {
-    background-color: var(--dark-purple);
-}
+
 
 #container {
     margin: 0 20px 0 20px;
