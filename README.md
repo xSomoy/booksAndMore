@@ -1,6 +1,7 @@
-# This Repo (and it's work) is dedicated to our beautiful community [Books And More][def1]
+# [Books And More][def1]
+### This Repo (and it's work) is dedicated to our beautiful community
 
-## <b> Developer:</b> <i>[Jond Deadman][def0]</i> [Somoy][def1]
+## <b> Developer:</b> <i>[Jond Deadman][def0]</i> a.k.a [Somoy][def1]
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 
