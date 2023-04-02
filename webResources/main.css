@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Manowar;
+    src: url(./fonts/ManowarNihar.ttf);
+  }
+
 #container {
     margin: 0 20px 0 20px;
 }
+
