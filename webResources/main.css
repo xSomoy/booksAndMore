@@ -1,12 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+a,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+
+/***********************   Common CSS END   ************************/
+
+
+
 @font-face {
     font-family: Manowar;
     src: url(./fonts/ManowarNihar.ttf);
-  }
+}
+
+
+/* S-Variables  */
+:root {
+    /* CSS HEX */
+    --dark-pastel-green: #20bf55ff;
+    --indigo-dye: #0b4f6cff;
+    --process-cyan: #01baefff;
+    --ghost-white: #fbfbffff;
+    --gray: #757575ff;
+    --font1: 'Lato', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+    --font3: 'Manowar', sans-serif;
+}
+
+/* E-Variables  */
+
+
+.underDev {
+    line-height: 30px !important;
+    padding-top: 5px;
+}
+
+body {
+    background-color: var(--dark-purple);
+}
 
 #container {
     margin: 0 20px 0 20px;
 }
 
-a {
-    text-decoration: none;
+p {
+    color: var(--tea-green);
+}
+
+
+h1 {
+    background-color: var(--umber);
+    color: var(--gold-metallic);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: var(--tea-green);
 }
