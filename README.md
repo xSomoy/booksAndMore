@@ -1,6 +1,6 @@
 # This Repo (and it's work) is dedicated to our beautiful community [Books And More][def1]
 
-## <b> Developer:</b> <i>[Somoy aka "Jond Deadman"][def2]</i>
+## <b> Developer:</b> <i>[Jond Deadman][def0]</i> [Somoy][def1]
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 
@@ -24,3 +24,4 @@
 
 [def1]: https://www.facebook.com/groups/248567440214010
 [def2]: https://www.facebook.com/somoy666/
+[def0]: https://www.facebook.com/xSomoy/
