@@ -15,7 +15,7 @@
 <body>
 
     <!-- Coolors Palette Widget -->
-    <div class="cPallet">
+    <div id="cPallet">
         <script src="https://coolors.co/palette-widget/widget.js"></script>
         <script
             data-id="05222215400761202">new CoolorsPaletteWidget("05222215400761202", ["20bf55", "0b4f6c", "01baef", "fbfbff", "757575"]); </script>
@@ -24,26 +24,8 @@
 
 
     <!-- S-Under Development Warning  -->
-    <div class="underDev">
-        <div class="alert alert alert-warning d-flex align-items-center" role="alert">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
-                aria-label="Warning:">
-                <path
-                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-            </svg>
-            <div>
-                This Website is still under development. For any issue contact the <button type="button"
-                    class="btn btn-outline-info"><a href="http://www.github.com/xSomoy"
-                        target="_blank">developer.</a></button> <button type="button" class="btn btn-primary position-relative">
-                            Version
-                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                              0.1.0
-                              <span class="visually-hidden">Version</span>
-                            </span>
-                          </button>
-            </div>
-        </div>
+    <div id="underDev">
+        
     </div>
     <!-- E-Under Development Warning  -->
 
@@ -68,7 +50,10 @@
                     <div id="books1" class="accordion-collapse collapse collapsed" aria-labelledby="books-1"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <img class="look-inside" src="https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/5a8e156fb_184325.jpg" alt="বয়স যখন ষোলোই সঠিক image" onclick="gtag('event', 'click_look_inside', {'product_id': 184325});ga('send', 'event', 'Detail', 'Click', 'Details-Click_on_Look_Inside_Image-Click');">
+                            <img class="look-inside"
+                                src="https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/5a8e156fb_184325.jpg"
+                                alt="বয়স যখন ষোলোই সঠিক image"
+                                onclick="gtag('event', 'click_look_inside', {'product_id': 184325});ga('send', 'event', 'Detail', 'Click', 'Details-Click_on_Look_Inside_Image-Click');">
                         </div>
                     </div>
                 </div>
@@ -336,8 +321,8 @@
 
     </div>
 
-<button onclick="loadData">fetch</button>
-<div id="demo"></div>
+    <button onclick="loadData">fetch</button>
+    <div id="demo"></div>
 
 
 
@@ -346,8 +331,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-        <!-- MY Scrips -->
-        <script src="./scipts/script.js"></script>
+    <!-- MY Scrips -->
+    <script src="./scripts/script.js"></script>
 
 </body>
 
