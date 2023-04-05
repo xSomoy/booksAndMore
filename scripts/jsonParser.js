@@ -22,6 +22,17 @@ let genre8 = "মৌলিক উপকথা";
 // fetch('./bookList/books.json')
 //     .then((response) => response.json())
 //     .then((json) = aloha);
-const json = './bookList/books.json';
-const obj = JSON.parse(json);
-console.log(obj); // Output: { name: 'John', age: 30, city: 'New York' }
+function myfuction(){
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function(){
+        if(xhttp.readyState == 4 && xhttp.status == 200){
+            let data = JSON.parse(xhttp.responseText);
+            document.getElementById("jsonTEST").innerHTML = data.book0.name;
+        }
+        else {
+            console.log("Error")
+        }
+    }
+    xhttp.open("GET" , "../bookList/books2.json", true);
+    xhttp.send()
+}
