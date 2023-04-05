@@ -16,18 +16,13 @@ let genre5 = "কবিতা";
 let genre6 = "মোটিভেশনাল";
 let genre7 = "ঐতিহাসিক থ্রিলাস";
 let genre8 = "মৌলিক উপকথা";
-// let aloha = [];
 
-
-// fetch('./bookList/books.json')
-//     .then((response) => response.json())
-//     .then((json) = aloha);
-function myfuction(){
+function loadJson(){
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function(){
         if(xhttp.readyState == 4 && xhttp.status == 200){
             let data = JSON.parse(xhttp.responseText);
-            document.getElementById("jsonTEST").innerHTML = data.book0.name;
+            document.getElementById("jsonTEST").innerHTML = data.book0.price;
         }
         else {
             console.log("Error")
@@ -36,3 +31,5 @@ function myfuction(){
     xhttp.open("GET" , "../bookList/books2.json", true);
     xhttp.send()
 }
+
+loadJson()
