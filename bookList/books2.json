@@ -1,0 +1,30 @@
+{
+    "book0": {
+        "name": "বয়স যখন ষোলই সঠিক",
+        "author": "তাসনিয়া আহমেদ",
+        "genre": "0",
+        "size": "1",
+        "price": "240"
+    },
+    "book1": {
+        "name": "asdad",
+        "author": "asdad",
+        "genre": "5",
+        "size": "3",
+        "price": "69"
+    },
+    "book2": {
+        "name": "asda",
+        "author": "asda",
+        "genre": "1",
+        "size": "3",
+        "price": "5"
+    },
+    "book3": {
+        "name": "asda",
+        "author": "asda",
+        "genre": "3",
+        "size": "0",
+        "price": "420"
+    }
+}
