@@ -7,7 +7,7 @@ function loadDoc() {
         this.responseText;
       }
     };
-    xhttp.open("GET", "./snips/underDev.jsx", true);
+    xhttp.open("GET", "./snips/underDev.ajax", true);
     xhttp.send();
 };
 
