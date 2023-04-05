@@ -16,11 +16,12 @@ let genre5 = "কবিতা";
 let genre6 = "মোটিভেশনাল";
 let genre7 = "ঐতিহাসিক থ্রিলাস";
 let genre8 = "মৌলিক উপকথা";
-let aloha = [];
+// let aloha = [];
 
 
-fetch('./bookList/books.json')
-    .then((response) => response.json())
-    .then((json) = aloha);
-
-console.log(aloha)
+// fetch('./bookList/books.json')
+//     .then((response) => response.json())
+//     .then((json) = aloha);
+const json = './bookList/books.json';
+const obj = JSON.parse(json);
+console.log(obj); // Output: { name: 'John', age: 30, city: 'New York' }
