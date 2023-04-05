@@ -1,72 +1,30 @@
 {
     "book0": {
-        "name": "",
-        "author": "",
-        "genre": "",
+        "name": "বয়স যখন ষোলই সঠিক",
+        "author": "তাসনিয়া আহমেদ",
+        "genre": "0",
         "size": "1",
-        "price": ""
+        "price": "240"
     },
     "book1": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
+        "name": "asdad",
+        "author": "asdad",
+        "genre": "5",
+        "size": "3",
+        "price": "69"
     },
     "book2": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
+        "name": "asda",
+        "author": "asda",
+        "genre": "1",
+        "size": "3",
+        "price": "5"
     },
     "book3": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
-    },
-    "book4": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
-    },
-    "book5": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
-    },
-    "book6": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
-    },
-    "book7": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
-    },
-    "book8": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
-      },
-      "book9": {
-        "name": "",
-        "author": "",
-        "genre": "",
-        "size": "",
-        "price": ""
-      }
+        "name": "asda",
+        "author": "asda",
+        "genre": "3",
+        "size": "0",
+        "price": "420"
+    }
 }
