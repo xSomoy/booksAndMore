@@ -41,5 +41,6 @@ let genre8 = "মৌলিক উপকথা";
 fetch('../bookList/book00.json')
     .then((response) => response.json())
     .then((book) => document.getElementById("book-00_name").innerHTML = book.name)
-    .then((book) => document.getElementById("book-00-img").setAttribute("src" = book.url));
+    // .then((book) => document.getElementById("book-00-img").setAttribute("src" = book.url));
+    .then((book) => console.log(book.name));
     
