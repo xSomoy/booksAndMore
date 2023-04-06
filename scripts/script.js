@@ -50,6 +50,7 @@ myDiv.appendChild(myHeading);
 myDiv.appendChild(myParagraph);
 }
 
+
 // for (let i = 0; i < books; i++) {
 //   fetch('../bookList/book0.json')
 //       .then((response) => response.json())
