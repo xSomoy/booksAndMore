@@ -32,14 +32,23 @@ let accordian = `<div class="accordion-item"> <h2 class="accordion-header" id="b
 
 
 for (let i = 0; i <= books; i++) {
-  let n = 1;
-  let test = `aloha${n}`;
-  console.log(test)
-  document.getElementById('bList').innerHTML = `<div id="bk${n}"</div>`;
-  document.getElementById(`bk${n}`).innerHTML = test;
-  n++;
-}
+  // var n = 1;
+// Get the div element by its ID
+var myDiv = document.getElementById("bList");
 
+// Create some new elements
+var myHeading = document.createElement("h1");
+var myParagraph = document.createElement("p");
+var myImage = document.createElement("img");
+
+// Set the content of the elements
+myHeading.textContent = "My Heading";
+myParagraph.textContent = "Lorem ipsum dolor sit amet...";
+
+// Append the elements to the div
+myDiv.appendChild(myHeading);
+myDiv.appendChild(myParagraph);
+}
 
 // for (let i = 0; i < books; i++) {
 //   fetch('../bookList/book0.json')
